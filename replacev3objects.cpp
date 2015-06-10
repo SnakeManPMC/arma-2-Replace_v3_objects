@@ -61,7 +61,7 @@ void replaceV3Objects::Read_Lines()
         line = line.toLower();
         list = line.split(";");
 
-        qDebug() << "opened this gay list" << list;
+        qDebug() << "opened this list" << list;
 
         // PMCTODO okay so replace this hardcoded crap with the same stuff as in replace_object tool has ;)
 
